@@ -36,7 +36,7 @@ body {
     color: var(--container-color);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     color: var(--title-color);
     font-weight: 700;
 }
@@ -169,7 +169,6 @@ a  {
     bottom: 0.5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #57a7e0;
 }
 
 /*Show Menu*/
@@ -201,7 +200,6 @@ a  {
     grid-template-columns: max-content;
     row-gap: 1rem;
     font-size: 1.25rem;
-    color: #57a7e0;
 }
 
 .home__data {
