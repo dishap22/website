@@ -314,14 +314,9 @@ section .skill {
 
 .skill {
     grid-template-columns: 1fr;
+    width: 60%;
+    font-size: 150%;
 }
-@media screen and (min-width: 767)
-{
-    .skill {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 
 .skill .set {
     background-color: var(--body-color);
@@ -361,12 +356,6 @@ section .skill {
     gap: 1rem;
     grid-template-columns: 1fr;
     padding-top: 3.5rem;
-}
-
-@media screen and (min-width: 767px) {
-    .education__content {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 .education__item {
